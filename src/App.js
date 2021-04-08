@@ -60,6 +60,7 @@ function handleModelChange(changes) {
 }
 
 // render function...
+// To get the diagram go.Diagram.fromDiv(document.getElementsByClassName("diagram-component")[0]).model.nodeDataArray
 function App() {
     return (
         <div>
